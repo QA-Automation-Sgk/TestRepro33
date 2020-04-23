@@ -8,8 +8,3 @@ steps:
       - run :
         name: Exceute Katalon Studio
         Command: katalon-execute-sh -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='TestSuites/TestEncoresuite'
-
-- store-test_results :
-    path: ./reports
-- store-artifacts :
-   path: ./reports
