@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: katalonstudio/katalon
+      
      steps:
       - checkout
       - run :
