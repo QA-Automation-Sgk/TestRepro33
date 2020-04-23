@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: katalonstudio/katalon
-	steps:
+     steps:
       - checkout
       - run :
         name: Exceute Katalon Studio
