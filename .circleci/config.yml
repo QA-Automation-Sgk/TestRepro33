@@ -1,7 +1,6 @@
 version: 2.1
 docker:
-      - image: katalonstudio/katalon
-     
+      - image: katalonstudio/katalon   
 jobs:
 build:
 steps:
