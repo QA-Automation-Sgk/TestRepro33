@@ -1,9 +1,6 @@
-Version: 2
-
+version: 2
 jobs:
-
-Build:
-
+test:
 docker:
       - image: katalonstudio/katalon
 steps:
