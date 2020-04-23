@@ -1,8 +1,9 @@
-version: 2.0
-jobs:
-build:
+version: 2.1
 docker:
       - image: katalonstudio/katalon
+     
+jobs:
+build:
 steps:
       - checkout
       - run :
