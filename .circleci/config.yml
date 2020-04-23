@@ -1,9 +1,9 @@
 version: 2
 jobs:
-Build:
-docker:
+  build:
+    docker:
       - image: katalonstudio/katalon
-steps:
+	steps:
       - checkout
       - run :
         name: Exceute Katalon Studio
