@@ -7,6 +7,7 @@ workflows:
     jobs:
       - katalon-studio/run:
           version: latest  
+          
           command_arguments: >-
             -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test
-            Suites/TestEncoresuite'
+            Suites/NewTestSuite22'
