@@ -6,6 +6,7 @@
    <UUID>5754721d-37bc-43b0-a375-86579a00167a</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Katalon Projects\TestRepro33\TestRepro33.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
