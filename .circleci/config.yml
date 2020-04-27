@@ -1,11 +1,12 @@
 version: 2.1
-docker:
-      - image: katalonstudio/katalon
-       
-jobs:
-build:
-steps:
-      - checkout
-      - run :
-        name: Exceute Katalon Studio
-        Command: katalon-execute-sh -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='TestSuites/TestEncoresuite'
+orbs:
+  katalon-studio: katalon/katalon-studio@23.0.3
+
+workflows:
+  build:
+    jobs:
+      - katalon-studio/run:
+          version: latest  
+          command_arguments: >-
+            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test
+            Suites/TestEncoresuite'
